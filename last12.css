@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-family: " Monteserat", sans-serif;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #0c0231;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(199, 111, 184);
+}
+
+body {
+    background-color: #0c0231;
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 9%;
+    background: #0c0231;
+
+}
+
+.logo {
+    padding-top: 9px;
+    width: 190px;
+    height: 82px;
+    cursor: pointer;
+    margin-left: -4ch;
+
+}
+
+li,
+a,
+button {
+    font-family: " Monteserat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FBFFFF;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: rgb(199, 111, 184);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 2rem;
+
+}
+
+.bshop {
+    margin-left: 3rem;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #a84197;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.nav-links li a {
+
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #e7c1fd;
+}
+
+#menu-btn {
+    font-size: 3rem;
+    color: #FBFFFF;
+    cursor: pointer;
+    display: none;
+}
+
+.Home {
+    padding: 2rem 5rem;
+    padding: 0%;
+    margin-block-end: 5rem;
+    background-attachment: fixed;
+
+}
+
+.slide {
+    min-height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 11rem 5% 26rem 5%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Hcontent {
+    width: 30rem;
+}
+
+.Hh {
+    font-size: 5rem;
+    color: #FBFFFF;
+    font-style: unset;
+    opacity: 0.9;
+    padding-top: 41%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Hs {
+    font-size: 5.5rem;
+    font-style: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: rgba(240, 67, 228, 0.9) 0px 0px 15px;
+
+}
+
+.Hbtn {
+    padding: 10px 30px;
+    background-color: rgb(199, 111, 184);
+    border: 10px;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    opacity: 0.9;
+    margin-left: 50px;
+}
+
+.Hbtn:hover {
+    background-color: #a84197;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.9;
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    gap: 3rem;
+    margin-block-end: 2rem;
+
+
+}
+
+.Aimage {
+    flex: 1 1 40rem;
+    position: relative;
+    top: 2rem;
+
+}
+
+.Aimage::before,
+.Aimage::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-color: #FBFFFF;
+    box-shadow: rgba(240, 67, 228, 0.9) 0px 0px 15px;
+    height: 10rem;
+    width: 10rem;
+}
+
+::before {
+    top: 1rem;
+    left: 1rem;
+
+}
+
+::after {
+    bottom: 1rem;
+    right: 1rem;
+
+}
+
+
+.Ai {
+    width: 100%;
+    padding: 2rem;
+}
+
+.Acontent {
+    flex: 1 1 42rem;
+
+}
+
+.Acontent p {
+    font-size: 1.5rem;
+    color: #FBFFFF;
+    margin-top: .5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Acontent span {
+    font-size: 5rem;
+    color: #FBFFFF;
+    margin-left: 20rem;
+    text-shadow: rgba(240, 67, 228, 0.9) 0px 0px 15px;
+
+}
+
+.Atitle {
+    font-size: 3rem;
+
+    color: #ffb8e6;
+    margin-top: .5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Abox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+
+.Abox {
+    flex: 1 1 25rem;
+
+}
+
+.Abox h3 {
+    font-size: 2rem;
+    color: aliceblue;
+
+}
+
+.Abox i {
+    padding-right: 1rem;
+    color: #ff43bd;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 0 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    #menu-btn {
+
+        display: inline-block;
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #0c0231;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+
+    }
+
+    .active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width:450px) {
+    html {
+        font-size: 55%;
+
+    }
+}
